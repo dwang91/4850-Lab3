@@ -61,7 +61,7 @@ function build_menu_bar($choices)
 {
     $result = '<ul>';
     foreach ($choices as $name => $link)
-	$result .= '<li>' . anchor($link, $name) . '</li>';
+	$result .= '<li>' . anchor($link, $name) . '</ul>';
     $result .= '</ul>';
     return $result;
 }
